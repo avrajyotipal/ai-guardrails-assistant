@@ -1,0 +1,35 @@
+# Environment & secrets — keep the example, exclude everything real
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+backend.log
+frontend.log
+backend_err.log
+frontend_err.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
